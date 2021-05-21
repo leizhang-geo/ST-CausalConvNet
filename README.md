@@ -12,6 +12,12 @@ The manuscript is currently under peer-review. The methodology and the results w
 - Pandas
 - PyTorch (>= 1.6.0)
 
+## Model architecture
+
+The architecture of ST-CausalConvNet, which includes two parts: (A) integration of the spatiotemporal information of multiple monitoring stations; (B) causal convolutional network with kernel size = 3 and dilations = 1, 2, and 4.
+
+![Model structure](./ST-CausalConvNet_Structure.jpg)
+
 ## Description of data and files
 
 - **data (directory)**:
@@ -47,4 +53,8 @@ python eval.py
 ```
 
 The saved model can be loaded and evaluating on the test set.
+
+## Contact
+
+For any other questions, please contact the author: Lei Zhang (zlxy9892@163.com)
 
