@@ -16,12 +16,12 @@ The manuscript is currently under peer-review. The methodology and the results w
 
 The architecture of ST-CausalConvNet, which includes two parts: (A) integration of the spatiotemporal information of multiple monitoring stations; (B) causal convolutional network with kernel size = 3 and dilations = 1, 2, and 4.
 
-![Model structure](./ST-CausalConvNet_Structure.jpg)
+![Model structure](./ST-CausalConvNet_Architecture.jpg)
 
 ## Description of data and files
 
 - **data (directory)**:
-  - **microsoft_urban_air_data**: The air-quality dataset from the Urban Computing Team in Microsoft Research (see [web page](http://research.microsoft.com/en-us/projects/urbanair) for getting more help of how to use this).
+  - **microsoft_urban_air_data**: The air-quality dataset from the Urban Computing Team in Microsoft Research (see the [web page](http://research.microsoft.com/en-us/projects/urbanair) for getting more help of how to use this).
   - **stations_data**: The data for each station in Beijing are separately stored in this directory.
   - **xy**: X and y matrices (saved as the pickle file format) for the input of the deep learning model.
 - **models (directory)**: The folder for storing the model.
@@ -54,7 +54,11 @@ python eval.py
 
 The saved model can be loaded and evaluating on the test set.
 
+## License
+
+[Apache License v2.0](./LICENSE)
+
 ## Contact
 
-For any other questions, please contact the author: Lei Zhang (zlxy9892@163.com)
+For questions and supports please contact the author: Lei Zhang 张磊 (zlxy9892@163.com)
 
