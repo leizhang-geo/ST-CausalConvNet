@@ -14,7 +14,7 @@ The manuscript is currently under peer-review. The methodology and the results w
 
 ## Model architecture
 
-The architecture of ST-CausalConvNet, which includes two parts: (A) integration of the spatiotemporal information of multiple monitoring stations; (B) causal convolutional network with kernel size = 3 and dilations = 1, 2, and 4.
+The architecture of ST-CausalConvNet, which includes two parts: (A) integration of the spatiotemporal information of multiple monitoring stations; (B) causal convolutional network (for the following example of the model architecture, kernel size = 3 and dilations = 1, 2, and 4).
 
 ![Model structure](./ST-CausalConvNet_Architecture.jpg)
 
