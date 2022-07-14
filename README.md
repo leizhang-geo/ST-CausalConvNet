@@ -66,6 +66,6 @@ We thanks the previous work [An Empirical Evaluation of Generic Convolutional an
 
 ## Contact
 
-For questions and supports please contact the author: Lei Zhang 张磊 (zhanglei@smail.nju.edu.cn)
+For questions and supports please contact the author: Lei Zhang 张磊 (lei.zhang.geo@outlook.com)
 
 Lei Zhang's [Homepage](https://zlxy9892.github.io/)
